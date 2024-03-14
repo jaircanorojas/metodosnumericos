@@ -55,6 +55,12 @@ Es un método numérico para encontrar raíces de funciones que combina la idea 
 [Ejemplo 4](https://github.com/jaircanorojas/metodosnumericos/blob/7b0eb88398b20966db1b99998749e87731d44efe/Secante4)
 
 
+## Problemario Tema 3
+"Equipo: Wenceslao Benitez Rosquero, Jair Cano Rojas y Adriana Jamileth Mendoza Ortiz"
+
+## MÉTODO DE ELIMINACIÓN GAUSSIANA
+Es un algoritmo utilizado para resolver sistemas de ecuaciones lineales. Su objetivo es transformar el sistema original en otro equivalente más simple mediante una secuencia de operaciones elementales (como sumar un múltiplo de una fila a otra o intercambiar filas), hasta obtener un sistema triangular superior o triangular inferior.
+
 
 
 
