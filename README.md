@@ -22,13 +22,13 @@ Se basa en la interpolación lineal entre dos puntos extremos del intervalo que 
 
 [Ejemplo 1](https://github.com/jaircanorojas/metodosnumericos/blob/6786f9c122d5064914e1e38efde893955d4aeca1/Reglafalsa1)
 
-[Ejemplo 2]()
+[Ejemplo 2](https://github.com/jaircanorojas/metodosnumericos/blob/b375f73ca211f0fc6408d6e664a3b2aa89b101c8/Reglafalsa2)
 
-[Ejemplo 3]()
+[Ejemplo 3](https://github.com/jaircanorojas/metodosnumericos/blob/b375f73ca211f0fc6408d6e664a3b2aa89b101c8/Reglafalsa3)
 
-[Ejemplo 4]()
+[Ejemplo 4](https://github.com/jaircanorojas/metodosnumericos/blob/b375f73ca211f0fc6408d6e664a3b2aa89b101c8/Reglafalsa4)
 
-[Ejemplo 5]()
+[Ejemplo 5](https://github.com/jaircanorojas/metodosnumericos/blob/b375f73ca211f0fc6408d6e664a3b2aa89b101c8/Reglafalsa5)
 
 ## Interpolacion
 Es un método para encontrar una función que pase a través de un conjunto de puntos dados. Utiliza diferentes técnicas, como el polinomio de Lagrange o el polinomio de Newton, para encontrar una aproximación de la función entre los puntos conocidos. 
