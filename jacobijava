@@ -1,0 +1,37 @@
+import java.io.*;
+import java.util.*;
+
+public class JacobiMethod {
+    public static void main(String[] args) {
+        // Initial guess to start with
+        double xg = 0;
+        double yg = 0;
+        double zg = 0;
+
+        // Setting error to move into the while loop
+        double error = 1;
+
+        // Setting up iteration counter
+        int count = 0;
+
+        while (error > 1.E-5) {
+            count++;
+
+            // Evaluating new values based on old guess
+            double x = (17 - yg + 2 * zg) / 20;
+            double y = (zg - 18 - 3 * xg) / 20;
+            double z = (25 - 2 * xg + 3 * yg) / 20;
+
+            // Error evaluation and printing
+            error = Math.abs(x - xg) + Math.abs(y - yg) + Math.abs(z - zg);
+            System.out.printf("Iteration %d, Error: %.5f%n", count, error);
+
+            // Updating the Guess for next iteration.
+            xg = x;
+            yg = y;
+            zg = z;
+        }
+
+        System.out.printf("x=%.5f, y=%.5f, z=%.5f%n", xg, yg, zg);
+    }
+}
