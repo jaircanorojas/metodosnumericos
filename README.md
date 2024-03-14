@@ -14,7 +14,7 @@ La bisección es un método numérico para encontrar raíces de funciones. Se di
 
 [Ejemplo 3](https://github.com/jaircanorojas/metodosnumericos/blob/e9b34dfe70013d1f7034eec67a7666816b7ed27d/Biseccion3)
 
-[Ejemplo 4](https://github.com/jaircanorojas/metodosnumericos/blob/eb3a25aa73f54c11aa88f4796f16fc5d3bb5f8c1/Biseccion1)
+[Ejemplo 4](https://github.com/jaircanorojas/metodosnumericos/blob/159febd048141ac6d9d256dfb46c95ab84511fe1/Biseccion4)
 
 
 ## Regla Falsa
