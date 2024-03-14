@@ -20,7 +20,7 @@ La bisección es un método numérico para encontrar raíces de funciones. Se di
 ## Regla Falsa
 Se basa en la interpolación lineal entre dos puntos extremos del intervalo que contiene la raíz, y luego utiliza el punto de intersección con el eje x como una mejor aproximación de la raíz. Este proceso se repite hasta que se alcanza la precisión deseada.
 
-[Ejemplo 1]()
+[Ejemplo 1](https://github.com/jaircanorojas/metodosnumericos/blob/6786f9c122d5064914e1e38efde893955d4aeca1/Reglafalsa1)
 
 [Ejemplo 2]()
 
