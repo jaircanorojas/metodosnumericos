@@ -63,12 +63,34 @@ Es un algoritmo utilizado para resolver sistemas de ecuaciones lineales. Su obje
 
 [![matrix-echelon-form.png](https://i.postimg.cc/Kcn3HhvW/matrix-echelon-form.png)](https://postimg.cc/K48Y1VT7)
 
+[Implementacion en java](https://github.com/jaircanorojas/metodosnumericos/blob/2b00a6fa1cbf1bf081eb4e8c5032d194a0aa0b0c/javaelimgau)
+
+[Ejemplo 1](https://github.com/jaircanorojas/metodosnumericos/blob/2b00a6fa1cbf1bf081eb4e8c5032d194a0aa0b0c/GAU1)
+
+[Ejemplo 2](https://github.com/jaircanorojas/metodosnumericos/blob/2b00a6fa1cbf1bf081eb4e8c5032d194a0aa0b0c/GAU2)
+
+[Ejemplo 3](https://github.com/jaircanorojas/metodosnumericos/blob/2b00a6fa1cbf1bf081eb4e8c5032d194a0aa0b0c/GAU3)
+
+[Ejemplo 4](https://github.com/jaircanorojas/metodosnumericos/blob/2b00a6fa1cbf1bf081eb4e8c5032d194a0aa0b0c/GAU4)
+
+[Ejemplo 5](https://github.com/jaircanorojas/metodosnumericos/blob/2b00a6fa1cbf1bf081eb4e8c5032d194a0aa0b0c/GAU5)
+
+## MÉTODO DE Gauss Jordan
+Se basa en la eliminación de incógnitas mediante operaciones elementales sobre filas para transformar la matriz original en una forma escalonada o reducida por filas.
+
+[![Captura-de-Pantalla-2021-11-09-a-las-11-28-59.png](https://i.postimg.cc/4dVWF4dd/Captura-de-Pantalla-2021-11-09-a-las-11-28-59.png)](https://postimg.cc/1nR08QDh)
+
 [Implementacion en java]()
 
+[Ejemplo 1]()
 
+[Ejemplo 2]()
 
+[Ejemplo 3]()
 
+[Ejemplo 4]()
 
+[Ejemplo 5]()
 
 
 
