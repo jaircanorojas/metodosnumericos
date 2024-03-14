@@ -8,6 +8,8 @@ En este problemario veremos diferentes metodos como Biseccion, Regla falsa,Inter
 ## Biseccion
 La bisección es un método numérico para encontrar raíces de funciones. Se divide un intervalo donde se sospecha que se encuentra la raíz hasta alcanzar una precisión deseada. Es simple y garantiza convergencia si se cumplen ciertas condiciones.
 
+[![biseccion1.png](https://i.postimg.cc/KYxWYnCm/biseccion1.png)](https://postimg.cc/hXZsy7SY)
+
 [Ejemplo 1](https://github.com/jaircanorojas/metodosnumericos/blob/eb3a25aa73f54c11aa88f4796f16fc5d3bb5f8c1/Biseccion1)
 
 [Ejemplo 2](https://github.com/jaircanorojas/metodosnumericos/blob/0bae9d0382efd0142d31a2a92e2b025e1c9d4964/Biseccion2)
@@ -19,6 +21,8 @@ La bisección es un método numérico para encontrar raíces de funciones. Se di
 
 ## Regla Falsa
 Se basa en la interpolación lineal entre dos puntos extremos del intervalo que contiene la raíz, y luego utiliza el punto de intersección con el eje x como una mejor aproximación de la raíz. Este proceso se repite hasta que se alcanza la precisión deseada.
+
+[![regla-falsa-3.jpg](https://i.postimg.cc/d3jb64bN/regla-falsa-3.jpg)](https://postimg.cc/SYj1N7Nc)
 
 [Ejemplo 1](https://github.com/jaircanorojas/metodosnumericos/blob/6786f9c122d5064914e1e38efde893955d4aeca1/Reglafalsa1)
 
@@ -33,6 +37,8 @@ Se basa en la interpolación lineal entre dos puntos extremos del intervalo que 
 ## Interpolacion
 Es un método para encontrar una función que pase a través de un conjunto de puntos dados. Utiliza diferentes técnicas, como el polinomio de Lagrange o el polinomio de Newton, para encontrar una aproximación de la función entre los puntos conocidos. 
 
+[![grafica-de-polinomios-de-legendre.png](https://i.postimg.cc/bw9Rv4QB/grafica-de-polinomios-de-legendre.png)](https://postimg.cc/hXhmyyZL)
+
 [Ejemplo 1](https://github.com/jaircanorojas/metodosnumericos/blob/b69ce628c56d8db89d99f4efe00ffca2a7e17661/interpolacion1)
 
 [Ejemplo 2](https://github.com/jaircanorojas/metodosnumericos/blob/b69ce628c56d8db89d99f4efe00ffca2a7e17661/interpolacion2)
@@ -45,6 +51,8 @@ Es un método para encontrar una función que pase a través de un conjunto de p
 
 ## Secante
 Es un método numérico para encontrar raíces de funciones que combina la idea del método de Newton-Raphson con la aproximación de la pendiente mediante una secante.
+
+[![220px-Secant-method-svg.png](https://i.postimg.cc/SsCRSb9X/220px-Secant-method-svg.png)](https://postimg.cc/MMZq54dx)
 
 [Ejemplo 1](https://github.com/jaircanorojas/metodosnumericos/blob/7b0eb88398b20966db1b99998749e87731d44efe/Secante1)
 
