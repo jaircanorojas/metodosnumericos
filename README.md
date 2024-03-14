@@ -63,7 +63,7 @@ Es un método numérico para encontrar raíces de funciones que combina la idea 
 [Ejemplo 4](https://github.com/jaircanorojas/metodosnumericos/blob/7b0eb88398b20966db1b99998749e87731d44efe/Secante4)
 
 
-## Problemario Tema 3
+# Problemario Tema 3
 "Equipo: Wenceslao Benitez Rosquero, Jair Cano Rojas y Adriana Jamileth Mendoza Ortiz"
 
 ## MÉTODO DE ELIMINACIÓN GAUSSIANA
