@@ -16,3 +16,60 @@ La bisección es un método numérico para encontrar raíces de funciones. Se di
 
 [Ejemplo 4](https://github.com/jaircanorojas/metodosnumericos/blob/eb3a25aa73f54c11aa88f4796f16fc5d3bb5f8c1/Biseccion1)
 
+
+## Regla Falsa
+Se basa en la interpolación lineal entre dos puntos extremos del intervalo que contiene la raíz, y luego utiliza el punto de intersección con el eje x como una mejor aproximación de la raíz. Este proceso se repite hasta que se alcanza la precisión deseada.
+
+[Ejemplo 1]()
+
+[Ejemplo 2]()
+
+[Ejemplo 3]()
+
+[Ejemplo 4]()
+
+[Ejemplo 5]()
+
+## Interpolacion
+Es un método para encontrar una función que pase a través de un conjunto de puntos dados. Utiliza diferentes técnicas, como el polinomio de Lagrange o el polinomio de Newton, para encontrar una aproximación de la función entre los puntos conocidos. 
+
+[Ejemplo 1]()
+
+[Ejemplo 2]()
+
+[Ejemplo 3]()
+
+[Ejemplo 4]()
+
+[Ejemplo 5]()
+
+## Secante
+Es un método numérico para encontrar raíces de funciones que combina la idea del método de Newton-Raphson con la aproximación de la pendiente mediante una secante.
+
+[Ejemplo 1]()
+
+[Ejemplo 2]()
+
+[Ejemplo 3]()
+
+[Ejemplo 4]()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
