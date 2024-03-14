@@ -46,13 +46,13 @@ Es un método para encontrar una función que pase a través de un conjunto de p
 ## Secante
 Es un método numérico para encontrar raíces de funciones que combina la idea del método de Newton-Raphson con la aproximación de la pendiente mediante una secante.
 
-[Ejemplo 1]()
+[Ejemplo 1](https://github.com/jaircanorojas/metodosnumericos/blob/7b0eb88398b20966db1b99998749e87731d44efe/Secante1)
 
-[Ejemplo 2]()
+[Ejemplo 2](https://github.com/jaircanorojas/metodosnumericos/blob/7b0eb88398b20966db1b99998749e87731d44efe/Secante2)
 
-[Ejemplo 3]()
+[Ejemplo 3](https://github.com/jaircanorojas/metodosnumericos/blob/7b0eb88398b20966db1b99998749e87731d44efe/Secante3)
 
-[Ejemplo 4]()
+[Ejemplo 4](https://github.com/jaircanorojas/metodosnumericos/blob/7b0eb88398b20966db1b99998749e87731d44efe/Secante4)
 
 
 
