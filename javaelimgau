@@ -1,0 +1,30 @@
+public Matrix gaussianElimination() {
+    Matrix inv = this.clone();
+    int i = 0;
+    int j = 0;
+
+    while (i<inv.getHeight() && j<inv.getWidth()) {
+        int pivot = i;
+        for (int k=i+1; k<inv.getHeight(); k++) {
+            if (Math.abs(inv.getArray()[k][j]) > Math.abs(inv.getArray()[pivot][j])) {
+                pivot = k;
+            }
+        }
+        if (inv.getArray()[pivot][j] != 0) {
+            inv = inv.swapRow(i, pivot);
+            double div = inv.getArray()[i][j];
+            for (double value : inv.getArray()[i]) {
+                value = value/div;
+            }
+            for (int u=i+1; u < inv.getHeight(); u++) {
+                double mult = inv.getArray()[u][j];
+                for (int l=0; l<inv.getWidth(); l++) {
+                    inv.getArray()[u][l] = mult * inv.getArray()[i][l];
+                }
+            }
+        }
+        j++;
+        i++;
+    }
+    return inv;
+}
