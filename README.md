@@ -61,7 +61,9 @@ Es un método numérico para encontrar raíces de funciones que combina la idea 
 ## MÉTODO DE ELIMINACIÓN GAUSSIANA
 Es un algoritmo utilizado para resolver sistemas de ecuaciones lineales. Su objetivo es transformar el sistema original en otro equivalente más simple mediante una secuencia de operaciones elementales (como sumar un múltiplo de una fila a otra o intercambiar filas), hasta obtener un sistema triangular superior o triangular inferior.
 
+[![matrix-echelon-form.png](https://i.postimg.cc/Kcn3HhvW/matrix-echelon-form.png)](https://postimg.cc/K48Y1VT7)
 
+[Implementacion en java]()
 
 
 
