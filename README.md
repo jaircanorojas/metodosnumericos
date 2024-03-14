@@ -1,5 +1,6 @@
 
-# Problemario TEMA 2
+# Metodos Numericos
+## Problemario
 
 En este problemario veremos diferentes metodos como Biseccion, Regla falsa,Interpolacion y Secante
 
