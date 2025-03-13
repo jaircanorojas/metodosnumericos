@@ -1,30 +1,51 @@
 public Matrix gaussianElimination() {
+    // 1. Clonar la matriz actual para no modificar la original
     Matrix inv = this.clone();
+
+    // 2. Inicializar índices para recorrer filas (i) y columnas (j)
     int i = 0;
     int j = 0;
 
-    while (i<inv.getHeight() && j<inv.getWidth()) {
+    // 3. Bucle principal: recorre filas y columnas hasta llegar al final
+    while (i < inv.getHeight() && j < inv.getWidth()) {
+
+        // 4. Encontrar el pivote (el valor más grande en la columna actual)
         int pivot = i;
-        for (int k=i+1; k<inv.getHeight(); k++) {
+        for (int k = i + 1; k < inv.getHeight(); k++) {
             if (Math.abs(inv.getArray()[k][j]) > Math.abs(inv.getArray()[pivot][j])) {
-                pivot = k;
+                pivot = k; // Actualizar el índice del pivote
             }
         }
+
+        // 5. Verificar si el pivote es distinto de cero
         if (inv.getArray()[pivot][j] != 0) {
+
+            // 6. Intercambiar la fila actual con la fila del pivote
             inv = inv.swapRow(i, pivot);
-            double div = inv.getArray()[i][j];
-            for (double value : inv.getArray()[i]) {
-                value = value/div;
+
+            // 7. Normalizar la fila del pivote (hacer que el pivote sea 1)
+            double div = inv.getArray()[i][j]; // Valor del pivote
+            for (int l = 0; l < inv.getWidth(); l++) {
+                inv.getArray()[i][l] /= div; // Dividir toda la fila por el pivote
             }
-            for (int u=i+1; u < inv.getHeight(); u++) {
-                double mult = inv.getArray()[u][j];
-                for (int l=0; l<inv.getWidth(); l++) {
-                    inv.getArray()[u][l] = mult * inv.getArray()[i][l];
+
+            // 8. Eliminación hacia adelante: hacer ceros debajo del pivote
+            for (int u = i + 1; u < inv.getHeight(); u++) {
+                double mult = inv.getArray()[u][j]; // Multiplicador para la eliminación
+                for (int l = 0; l < inv.getWidth(); l++) {
+                    // Restar un múltiplo de la fila del pivote a la fila actual
+                    inv.getArray()[u][l] -= mult * inv.getArray()[i][l];
                 }
             }
+
+            // 9. Avanzar a la siguiente fila
+            i++;
         }
+
+        // 10. Avanzar a la siguiente columna
         j++;
-        i++;
     }
+
+    // 11. Devolver la matriz transformada
     return inv;
 }
